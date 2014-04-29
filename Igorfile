@@ -1,0 +1,6 @@
+---
+- name: deploy
+  template: echo "hello <%= env %>"
+  arguments:
+    required:
+      - env
