@@ -1,6 +1,6 @@
 ---
 - name: deploy
-  template: echo -e "\033[38;5;208mhello <%= env %>\033[0;00m"
+  template: echo -e "\033[0;31mhello <%= env %>\033[0;00m"
   arguments:
     required:
       - env
