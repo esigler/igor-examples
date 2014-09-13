@@ -1,6 +1,6 @@
 ---
 - name: deploy
-  template: echo "\033[0;31mhello <%= env %>\033[0;00m"; echo "This is a super crazy amazing long line that there is no chance you can possible have all in one window because if you had a window this long you would have no room for anything else and that is just totally crazy I mean really who would have a window this wide?"; echo "\033[0;30mblack\033[0;00m"; echo "\033[0;31mred\033[0;00m"; echo "\033[0;32mgreen\033[0;00m"; echo "\033[0;33myellow\033[0;00m"; echo "\033[0;34mblue\033[0;00m"; echo "\033[0;35mmagenta\033[0;00m"; echo "\033[0;36mcyan\033[0;00m"; echo "\033[0;37mwhite\033[0;00m"; echo "\033[0;90mgrey\033[0;00m";
+  template: echo "This is a super crazy amazing long line that there is no chance you can possibly have all in one window because if you had a window this long you would have no room for anything else and that is just totally crazy I mean really who would have a window this wide?"; echo "\033[47;30mblack\033[0;00m"; echo "\033[0;31mred\033[0;00m"; echo "\033[0;32mgreen\033[0;00m"; echo "\033[0;33myellow\033[0;00m"; echo "\033[0;34mblue\033[0;00m"; echo "\033[0;35mmagenta\033[0;00m"; echo "\033[0;36mcyan\033[0;00m"; echo "\033[0;37mwhite\033[0;00m"; echo "\033[0;90mgrey\033[0;00m"; sleep <%= env %>
   arguments:
     required:
       - env
