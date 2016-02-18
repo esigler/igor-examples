@@ -4,3 +4,5 @@
   arguments:
     required:
       - env
+  options:
+    webhook: "http://eeegor.requestcatcher.com/"
