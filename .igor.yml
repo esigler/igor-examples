@@ -6,4 +6,4 @@
       - env
       - tag
   options:
-    webhook: "http://eeegor.requestcatcher.com/"
+    webhook: "https://requestb.in/tjd0ditj"
