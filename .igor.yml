@@ -4,3 +4,6 @@
   arguments:
     required:
       - env
+      - tag
+  options:
+    merge: master
